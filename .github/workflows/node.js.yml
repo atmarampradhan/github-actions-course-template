@@ -12,7 +12,10 @@ jobs:
   set:
     runs-on: [ master ]
     environment: test
+    
     steps:
       - uses: atmarampradhan/github-actions-course-template@v1
+       
         with:
+          approvers: atmarampradhan
           location: ${{ env.PROJECT_NAME }}
