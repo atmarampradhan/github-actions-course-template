@@ -10,7 +10,7 @@ env:
   PROJECT_NAME: atmarampradhan/${{ inputs.project }}
 jobs:
   set:
-    runs-on: [ master ]
+    runs-on: ubuntu-latest
     environment: test
     
     steps:
