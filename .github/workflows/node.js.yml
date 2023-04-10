@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
   #  environment: test
     
-    steps:
-      - uses: atmarampradhan/github-actions-course-template@patch-1
+    #steps:
+     # - uses: atmarampradhan/github-actions-course-template@patch-1
        
-        with:
+     #   with:
         #  approvers: atmarampradhan
-          location: ${{ env.PROJECT_NAME }}
+     #     location: ${{ env.PROJECT_NAME }}
