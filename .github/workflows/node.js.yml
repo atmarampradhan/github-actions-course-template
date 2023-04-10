@@ -6,6 +6,14 @@ on:
         description: "Repo Name, example madevops-jira-integration"
         required: true
         default: "madevops-jira-integration"
+      environment:
+       type: choice
+       description: Select the Environment
+       required: true
+       options:
+        - test
+        - uat
+      
 env:
   PROJECT_NAME: atmarampradhan/${{ inputs.project }}
 jobs:
