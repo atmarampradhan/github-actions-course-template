@@ -11,11 +11,11 @@ env:
 jobs:
   set:
     runs-on: ubuntu-latest
-    environment: test
+  #  environment: test
     
     steps:
       - uses: atmarampradhan/github-actions-course-template@v1
        
         with:
-          approvers: atmarampradhan
+        #  approvers: atmarampradhan
           location: ${{ env.PROJECT_NAME }}
