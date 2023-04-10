@@ -14,7 +14,7 @@ jobs:
   #  environment: test
     
     steps:
-      - uses: atmarampradhan/github-actions-course-template@master
+      - uses: atmarampradhan/github-actions-course-template@patch-1
        
         with:
         #  approvers: atmarampradhan
