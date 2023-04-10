@@ -9,13 +9,8 @@ on:
 env:
   PROJECT_NAME: atmarampradhan/${{ inputs.project }}
 jobs:
-  set:
+  my-job:
     runs-on: ubuntu-latest
-  #  environment: test
-    
-    #steps:
-     # - uses: atmarampradhan/github-actions-course-template@patch-1
-       
-     #   with:
-        #  approvers: atmarampradhan
-     #     location: ${{ env.PROJECT_NAME }}
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
